@@ -51,7 +51,7 @@ export default function Courses() {
 				<p>{item.description}</p>
 				{
 					item.buttonText ? 
-					<a href="/" className={`${isEd ? "bg-green-300" : isProj ? "bg-yellow-300" : "bg-green-600"} hover:bg-gray-400 hover:scale-110 active:scale-100 transition duration-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mt-6`}>{item.buttonText}</a>
+					<a href={item.link} target = "_blank" className={`${isEd ? "bg-green-300" : isProj ? "bg-yellow-300" : "bg-green-600"} hover:bg-gray-400 hover:scale-110 active:scale-100 transition duration-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mt-6`}>{item.buttonText}</a>
 					: null
 				}
 			</VerticalTimelineElement>

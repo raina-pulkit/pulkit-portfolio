@@ -28,20 +28,15 @@ function App() {
         <Parallax item = "portfolio"/>
       </section>
       <Portfolio />
-      {/* <section>Portfolio 1</section>
-      <section>Parallax</section>
-      <section>Portfolio 2</section>
-      <section>Parallax</section>
-      <section>Portfolio 3</section>
-      <section>Parallax</section>
-      <section>Portfolio 4</section>
-      <section>Parallax</section>
-      <section>Portfolio 5</section> */}
 
-      <section id="Contact">Parallax</section>
+      <section id="Contact">
+        <Parallax item = "contact" />
+      </section>
       <section>Contact</section>
 
-      <section id="About">Parallax</section>
+      <section id="About">
+        <Parallax item = "about" />
+      </section>
       <section>About Me</section>
     </div>
   );

@@ -28,7 +28,13 @@ export default function Parallax({ item }) {
         style={{ y: yLarge }}
         className="title text-8xl z-[3] text-white my-24 text-center"
       >
-        {item === "courses" ? "Education, Courses & Certification" : "Projects"}
+        {item === "courses"
+          ? "Education, Courses & Certification"
+          : item === "portfolio"
+          ? "Projects"
+          : item === "contact"
+          ? "Contact Me"
+          : "About Me"}
       </motion.h1>
 
       <motion.div className="mountain absolute bg-cover bg-bottom w-full h-full z-[4] -bottom-20"></motion.div>

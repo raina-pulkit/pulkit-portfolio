@@ -8,15 +8,17 @@ export const lifeEvents = [
     buttonText: "View marks sheet so far",
     date: "Dec 2021 - Present",
     icon: "school",
+    link: "marks.pdf",
   },
   {
     id: 2,
-    title: "11th & 12th Grade",
+    title: "12th Grade",
     location: "National Centre for Excellence, Bengaluru, India",
     description: "PCMC (Physics, Chemistry, Mathematics & Comp Science)",
     buttonText: "View Certificate",
-    date: "May 2019 - May 2021",
+    date: "May 2020 - May 2021",
     icon: "school",
+    link: "10-12.pdf",
   },
   {
     id: 3,
@@ -26,6 +28,7 @@ export const lifeEvents = [
     buttonText: "View Certificate",
     date: "May 2018 - May 2019",
     icon: "school",
+    link: "10-12.pdf",
   },
   {
     id: 4,
@@ -46,6 +49,7 @@ export const lifeEvents = [
     buttonText: "View certificate",
     date: "October 2021 - Present",
     icon: "scholar",
+    link: "ntse.pdf",
   },
   {
     id: 6,
@@ -56,6 +60,7 @@ export const lifeEvents = [
     buttonText: "View certificate",
     date: "December 2023 - January 2024",
     icon: "scholar",
+    link: "icpc-regionals.pdf",
   },
   {
     id: 7,
@@ -66,6 +71,7 @@ export const lifeEvents = [
     buttonText: "View certificate",
     date: "October 2023 - October 2023",
     icon: "scholar",
+    link: "https://github.com/raina-pulkit/Certificates/blob/main/2024-ICPC%20Chennai%20Preliminary-HONORABLE.pdf",
   },
   {
     id: 8,
@@ -76,16 +82,18 @@ export const lifeEvents = [
     buttonText: "View Source Code",
     date: "Jan 2024 - March 2024",
     icon: "project",
+    link: "https://github.com/raina-pulkit/namma_metro",
   },
   {
     id: 9,
     title: "'Echo Auction' Web Application",
     location: "BMSCE, Bengaluru, India",
     description:
-      'A full-stack Auction website made using HTML, CSS & JS for frontend, & PHP, & MySQL for Backend. Buyers can post their products while the seller can bid on them. Implemented features such as product browsing, search functionality, and interactive UI components. Implemented concurrent addition of products to the auctioning website.',
+      "A full-stack Auction website made using HTML, CSS & JS for frontend, & PHP, & MySQL for Backend. Buyers can post their products while the seller can bid on them. Implemented features such as product browsing, search functionality, and interactive UI components. Implemented concurrent addition of products to the auctioning website.",
     buttonText: "View Source Code",
     date: "October 2023 - December 2023",
     icon: "project",
+    link: "https://github.com/pulkit-raina/Echo2",
   },
   {
     id: 10,
@@ -96,6 +104,7 @@ export const lifeEvents = [
     buttonText: "View certificate",
     date: "August 2023 - April 2024",
     icon: "course",
+    link: "https://github.com/raina-pulkit/Certificates/blob/main/Udemy_Python.pdf",
   },
   {
     id: 11,
@@ -106,6 +115,7 @@ export const lifeEvents = [
     buttonText: "View certificate",
     date: "August 2023 - March 2024",
     icon: "course",
+    link: "https://github.com/raina-pulkit/Certificates/blob/main/Udemy_Web_Dev.pdf",
   },
   {
     id: 12,
@@ -116,6 +126,7 @@ export const lifeEvents = [
     buttonText: "View Certificate",
     date: "November 2023",
     icon: "course",
+    link: "https://github.com/raina-pulkit/Certificates/blob/main/Udemy_50Projects.pdf",
   },
   {
     id: 13,
@@ -126,6 +137,7 @@ export const lifeEvents = [
     buttonText: "View Certificate",
     date: "September 2023 to October 2023",
     icon: "course",
+    link: "https://github.com/raina-pulkit/Certificates/blob/main/Udemy_DSA_with_Java.pdf",
   },
   {
     id: 14,
@@ -136,6 +148,7 @@ export const lifeEvents = [
     buttonText: "View Certificate",
     date: "July 2023 to September 2023",
     icon: "course",
+    link: "https://github.com/raina-pulkit/Certificates/blob/main/Python%20For%20Data%20Science.pdf",
   },
   {
     id: 15,
@@ -147,6 +160,7 @@ export const lifeEvents = [
     buttonText: "View Course",
     date: "July 2023 to October 2023",
     icon: "course",
+    link: "https://www.youtube.com/watch?v=xWmIIB0Gzdo&list=PLVNwAojaYUN9KW2q60ziWG0UEYSmR3wnj"
   },
   {
     id: 16,
@@ -157,6 +171,7 @@ export const lifeEvents = [
     buttonText: "View Course",
     date: "July 2023 to October 2023",
     icon: "course",
+    link: "https://www.youtube.com/watch?v=OjdT2l-EZJA&list=PLfn3cNtmZdPOe3R_wO_h540QNfMkCQ0ho"
   },
   {
     id: 17,
@@ -167,6 +182,7 @@ export const lifeEvents = [
     buttonText: "View Certificate",
     date: "August 2023",
     icon: "course",
+    link: "https://github.com/raina-pulkit/Certificates/blob/main/Web%20Development%20Training%20-%20Certificate%20of%20Completion.pdf"
   },
   {
     id: 18,
@@ -176,6 +192,7 @@ export const lifeEvents = [
     buttonText: "View Certificate",
     date: "October 2023",
     icon: "course",
+    link: "https://github.com/raina-pulkit/Certificates/blob/main/Pulkit_HackerRank_Python.pdf"
   },
   {
     id: 19,
@@ -185,6 +202,7 @@ export const lifeEvents = [
     buttonText: "View Certificate",
     date: "November 2022",
     icon: "course",
+    link: "https://www.linkedin.com/in/pulkit-raina-0b18881ab/",
   },
   {
     id: 20,
@@ -194,5 +212,6 @@ export const lifeEvents = [
     buttonText: "View Certificate",
     date: "May 2021",
     icon: "course",
+    link: "https://github.com/raina-pulkit/Certificates/blob/main/HPE_CodeWars_2021.pdf",
   },
 ];
