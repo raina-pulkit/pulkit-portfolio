@@ -24,13 +24,22 @@ export default function Parallax({ item }) {
             : "linear-gradient(180deg, rgb(146, 78, 78), #917191)",
       }}
     >
-      <motion.h1 style={{ y: yLarge }} className="title text-8xl z-[3] text-white my-24 text-center">
+      <motion.h1
+        style={{ y: yLarge }}
+        className="title text-8xl z-[3] text-white my-24 text-center"
+      >
         {item === "courses" ? "Education, Courses & Certification" : "Projects"}
       </motion.h1>
 
       <motion.div className="mountain absolute bg-cover bg-bottom w-full h-full z-[4] -bottom-20"></motion.div>
-      <motion.div style = {{x: ySmall}} className="stars absolute bg-bottom w-full h-full z-[1]"></motion.div>
-      <motion.div style = {{x: ySmall}} className="sun absolute bg-cover bg-bottom w-full h-full z-[2]"></motion.div>
+      <motion.div
+        style={{ x: ySmall }}
+        className="stars absolute bg-bottom w-full h-full z-[1]"
+      ></motion.div>
+      <motion.div
+        style={{ x: ySmall }}
+        className="sun absolute bg-cover bg-bottom w-full h-full z-[2]"
+      ></motion.div>
     </div>
   );
 }
