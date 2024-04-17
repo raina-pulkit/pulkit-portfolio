@@ -29,7 +29,6 @@ export default function Parallax({ item }) {
       </motion.h1>
 
       <motion.div className="mountain absolute bg-cover bg-bottom w-full h-full z-[4] -bottom-20"></motion.div>
-      {/* <motion.div style = {{y: ySmall}} className="mountain-bg absolute bg-cover w-svw h-full z-0"></motion.div> */}
       <motion.div style = {{x: ySmall}} className="stars absolute bg-bottom w-full h-full z-[1]"></motion.div>
       <motion.div style = {{x: ySmall}} className="sun absolute bg-cover bg-bottom w-full h-full z-[2]"></motion.div>
     </div>
