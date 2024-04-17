@@ -1,0 +1,198 @@
+export const lifeEvents = [
+  {
+    id: 1,
+    title: "Bachelors in Engineering (CSE)",
+    location: "BMS College of Engineering, Bengaluru, India",
+    description:
+      "Pursuing BE in CSE at BMS College of Engineering | Current CGPA: 9.1/10",
+    buttonText: "View marks sheet so far",
+    date: "Dec 2021 - Present",
+    icon: "school",
+  },
+  {
+    id: 2,
+    title: "11th & 12th Grade",
+    location: "National Centre for Excellence, Bengaluru, India",
+    description: "PCMC (Physics, Chemistry, Mathematics & Comp Science)",
+    buttonText: "View Certificate",
+    date: "May 2019 - May 2021",
+    icon: "school",
+  },
+  {
+    id: 3,
+    title: "10th Grade",
+    location: "National Centre for Excellence, Bengaluru, India",
+    description: "PCMC (Physics, Chemistry, Mathematics & Comp Science)",
+    buttonText: "View Certificate",
+    date: "May 2018 - May 2019",
+    icon: "school",
+  },
+  {
+    id: 4,
+    title: "DSA Mentor",
+    location: "BMSCE, Bengaluru, India",
+    description:
+      "Dedicated mentor fostering an active coding culture in college, guiding juniors in honing their skills, and providing comprehensive support in Data Structures and Competitive Programming for enhanced academic excellence.",
+    buttonText: null,
+    date: "December 2021 - Present",
+    icon: "school",
+  },
+  {
+    id: 5,
+    title: "NTSE Scholar",
+    location: "Bengaluru, India",
+    description:
+      "As a National Talent Search Examination (NTSE) Scholar, I proudly stand among the select 2000 individuals chosen for scholarships from a pool of 10 lakh students annually. This prestigious recognition underscores my exceptional academic prowess and commitment to excellence.",
+    buttonText: "View certificate",
+    date: "October 2021 - Present",
+    icon: "scholar",
+  },
+  {
+    id: 6,
+    title: "ICPC Regionalist Rank 76",
+    location: "IIITDM, Kanchepuram, TN",
+    description:
+      "Secured a rank of 76 in the prestigious International Collegiate Programming Contest(ICPC) regional round.",
+    buttonText: "View certificate",
+    date: "December 2023 - January 2024",
+    icon: "scholar",
+  },
+  {
+    id: 7,
+    title: "ICPC Pre-Regionals Rank 406",
+    location: "Bengaluru, India",
+    description:
+      "Secured a rank of 406 in the prestigious International Collegiate Programming Contest(ICPC) pre-regionals round.",
+    buttonText: "View certificate",
+    date: "October 2023 - October 2023",
+    icon: "scholar",
+  },
+  {
+    id: 8,
+    title: "'Namma Metro' ticket booking Application",
+    location: "BMSCE, Bengaluru, India",
+    description:
+      'Developed a full-stack mobile application called "Namma Metro Ticket Booking App" using Dart with the Flutter framework for the front-end and Firebase for the back end. The app enables users to seamlessly book metro tickets, providing a convenient and efficient commuting experience. Key features include User Authentication, Ticket Booking System, Payment Integration, Real-time Database, User Interface (UI) Design, Error Handling and Validation, Scalability, Testing and Debugging.',
+    buttonText: "View Source Code",
+    date: "Jan 2024 - March 2024",
+    icon: "project",
+  },
+  {
+    id: 9,
+    title: "'Echo Auction' Web Application",
+    location: "BMSCE, Bengaluru, India",
+    description:
+      'A full-stack Auction website made using HTML, CSS & JS for frontend, & PHP, & MySQL for Backend. Buyers can post their products while the seller can bid on them. Implemented features such as product browsing, search functionality, and interactive UI components. Implemented concurrent addition of products to the auctioning website.',
+    buttonText: "View Source Code",
+    date: "October 2023 - December 2023",
+    icon: "project",
+  },
+  {
+    id: 10,
+    title: "Udemy Python Course Certification",
+    location: "Bengaluru, India",
+    description:
+      "Completed a comprehensive 62-hour Udemy course in Python development, where I delved into the intricacies of the language, mastering fundamental concepts, advanced techniques, and real-world applications. Through hands-on projects and guided learning, I honed my skills in building robust software solutions, expanding my proficiency in Python programming and solidifying my foundation in software development.",
+    buttonText: "View certificate",
+    date: "August 2023 - April 2024",
+    icon: "course",
+  },
+  {
+    id: 11,
+    title: "Udemy Web Development Bootcamp",
+    location: "Bengaluru, India",
+    description:
+      "I successfully completed a comprehensive web development bootcamp on Udemy, where I acquired a robust skill set encompassing HTML, CSS, JavaScript, and various frameworks. Through hands-on projects and guided tutorials, I gained practical experience in building responsive and dynamic web applications. This immersive learning experience equipped me with the knowledge and confidence to tackle real-world web development challenges effectively.",
+    buttonText: "View certificate",
+    date: "August 2023 - March 2024",
+    icon: "course",
+  },
+  {
+    id: 12,
+    title: "Udemy 50 Projects in JS",
+    location: "Bengaluru, India",
+    description:
+      "Dynamic coder with proficiency in HTML, CSS, and JS, showcasing expertise through completion of 50 projects on Udemy.",
+    buttonText: "View Certificate",
+    date: "November 2023",
+    icon: "course",
+  },
+  {
+    id: 13,
+    title: "Udemy DSA with Java Certification",
+    location: "Bengaluru, India",
+    description:
+      "Proficient in Data Structures and Algorithms with Java: Certified through Udemy Course Completion",
+    buttonText: "View Certificate",
+    date: "September 2023 to October 2023",
+    icon: "course",
+  },
+  {
+    id: 14,
+    title: "NPTEL Python for Data Science (IIT Madras) certification",
+    location: "Bengaluru, India",
+    description:
+      "Certified in Python for Data Science by IIT Madras through NPTEL Program.",
+    buttonText: "View Certificate",
+    date: "July 2023 to September 2023",
+    icon: "course",
+  },
+  {
+    id: 15,
+    title:
+      "NPTEL Getting started with Competitive Coding (IIT Gandhinagar) course",
+    location: "Bengaluru, India",
+    description:
+      "Completed a course on Competitive Coding provided by IIT Gandhinagar.",
+    buttonText: "View Course",
+    date: "July 2023 to October 2023",
+    icon: "course",
+  },
+  {
+    id: 16,
+    title: "NPTEL DSA with Java (IIT Kharagpur) course",
+    location: "Bengaluru, India",
+    description:
+      "Completed a course on DSA with Java provided by IIT Kharagpur.",
+    buttonText: "View Course",
+    date: "July 2023 to October 2023",
+    icon: "course",
+  },
+  {
+    id: 17,
+    title: "Internshala Web Development Certification",
+    location: "Bengaluru, India",
+    description:
+      "Completed comprehensive Internshala Web Development Certification, gaining expertise in front-end and back-end web development technologies, including HTML, CSS, JavaScript, PHP, and MySQL. Demonstrated proficiency in building dynamic and responsive web applications through hands-on projects and practical assignments.",
+    buttonText: "View Certificate",
+    date: "August 2023",
+    icon: "course",
+  },
+  {
+    id: 18,
+    title: "HackerRank Python Certification",
+    location: "Bengaluru, India",
+    description: null,
+    buttonText: "View Certificate",
+    date: "October 2023",
+    icon: "course",
+  },
+  {
+    id: 19,
+    title: "LinkedIn Python Certification",
+    location: "Bengaluru, India",
+    description: null,
+    buttonText: "View Certificate",
+    date: "November 2022",
+    icon: "course",
+  },
+  {
+    id: 20,
+    title: "HPE CodeWars",
+    location: "Bengaluru, India",
+    description: "Secured All India Rank of 86 in HPE Code wars 2021",
+    buttonText: "View Certificate",
+    date: "May 2021",
+    icon: "course",
+  },
+];

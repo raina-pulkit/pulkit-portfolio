@@ -1,0 +1,23 @@
+:root {
+	--bg-color: #ffd1ff;
+	--text-color: #250a25;
+	--sidebar-color: var(--text-color);
+	--sidebar-text-color: var(--bg-color);
+}
+
+[dark-theme="dark"] {
+	--bg-color: #301530;
+	--text-color: rgb(228, 215, 215);
+	--sidebar-color: var(--bg-color);
+	--sidebar-text-color: var(--text-color);
+}
+
+.sidebar {
+	background-color: var(--sidebar-color);
+	color: var(--sidebar-text-color);
+}
+
+.bg {
+	background-color: var(--sidebar-color);
+	color: var(--sidebar-text-color);
+}

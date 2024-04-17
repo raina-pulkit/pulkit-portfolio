@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+:root {
+  --bg-color: ;
+  --text-color: #250a25;
+}
+
+[data-theme = "dark"] {
+  --bg-color: #301530;
+  --text-color: rgb(228, 215, 215);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "rajdhani", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  transition: 0.2s ease-in;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+
+  scroll-snap-align: center;
+  overflow: hidden;
+}
+
+.main-wrapper {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
