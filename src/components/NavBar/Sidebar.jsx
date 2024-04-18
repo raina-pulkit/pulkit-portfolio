@@ -29,7 +29,6 @@ export default function SideBar() {
   };
 
   $(document).on("click",(e) => {
-    console.log(e);
     if((e.target.id != 'sidebar') && (e.target.id != 'links')) {
       setOpen(false);
     }
@@ -43,7 +42,7 @@ export default function SideBar() {
         data-theme = {light ? "light" : "dark"}
       >
         <motion.div
-          className="bg fixed top-0 left-0 bottom-0 w-[400px] z-[998]"
+          className="sidebar bg fixed top-0 left-0 bottom-0 w-[400px] z-[998]"
           id = "sidebar"
           variants={variants}
           data-theme = {light ? "light" : "dark"}

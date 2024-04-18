@@ -9,7 +9,8 @@ import Portfolio from "./components/Portfolio/portfolio";
 
 function App() {
   const { light } = useContext(Contexts);
-
+  const {selectedId} = useContext(Contexts);
+  
   return (
     <div data-theme={light ? "light" : "dark"} className="main-wrapper w-full">
       <section id = "Home">
@@ -20,7 +21,7 @@ function App() {
       <section id="Timeline">
         <Parallax item = "courses"/>
       </section>
-      <section style={{height: "auto"}}>
+      <section style={{height: selectedId ? "100vh" : "auto"}}>
         <Courses />
       </section>
 

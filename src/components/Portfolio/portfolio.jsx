@@ -22,8 +22,9 @@ const Project = ({ item }) => {
             <p className="text-gray-400 text-xl">{item.desc}</p>
             <div className="flex gap-4">
               {item.github && item.github.length
-                ? item.github.map((itm) => (
+                ? item.github.map((itm, ind) => (
                     <a
+                      key={ind}
                       className="bg-orange-400 border-none rounded-xl p-3 w-52 cursor-pointer hover:scale-105 active:scale-100 transition duration-300 flex justify-center text-2xl"
                       href={itm} target="_blank"
                     >

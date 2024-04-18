@@ -68,6 +68,13 @@ export default function Home() {
               className="p-5 border-2 border-black rounded-xl bg-transparent text-black text-xl cursor-pointer"
               whileHover={{ scale: 0.95, transition: { duration: 0.01 } }}
               whileTap={{ scale: 0.9 }}
+              onClick={(e) => {
+                e.preventDefault(); // Prevent default link behavior
+                const target = document.querySelector(`#Portfolios`);
+                if (target) {
+                  target.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
             >
               See Latest Works
             </motion.button>
@@ -76,6 +83,13 @@ export default function Home() {
               className="p-5 border-2 border-black rounded-xl bg-transparent text-black text-xl cursor-pointer"
               whileHover={{ scale: 0.95, transition: { duration: 0.01 } }}
               whileTap={{ scale: 0.9 }}
+              onClick={(e) => {
+                e.preventDefault(); // Prevent default link behavior
+                const target = document.querySelector(`#Contact`);
+                if (target) {
+                  target.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
             >
               Contact Me
             </motion.button>

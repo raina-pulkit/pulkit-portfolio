@@ -1,15 +1,15 @@
 :root {
 	--bg-color: #ffd1ff;
 	--text-color: #250a25;
-	--sidebar-color: var(--text-color);
-	--sidebar-text-color: var(--bg-color);
+	--sidebar-color: #250a25;
+	--sidebar-text-color: #ffd1ff;
 }
 
 [dark-theme="dark"] {
 	--bg-color: #301530;
 	--text-color: rgb(228, 215, 215);
-	--sidebar-color: var(--bg-color);
-	--sidebar-text-color: var(--text-color);
+	--sidebar-color: #ffd1ff;
+	--sidebar-text-color: #301530;
 }
 
 .sidebar {
