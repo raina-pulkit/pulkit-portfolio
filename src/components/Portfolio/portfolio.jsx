@@ -13,8 +13,8 @@ const Project = ({ item }) => {
   return (
     <section>
       <div className="flex items-center justify-center w-full h-full overflow-hidden">
-        <div ref={ref} className="max-w-[1366px] h-3/4 m-auto flex items-center justify-center gap-12 pr-5">
-          <div style={{yOther}} className="relative flex-1 flex items-center justify-center h-full mt-[100px] overflow-hidden bg-center bg-cover bg-no-repeat">
+        <div ref={ref} className="max-w-[1366px] h-3/4 m-auto flex items-center justify-center gap-8 pr-5">
+          <div style={{yOther}} className="relative flex-1 flex items-center justify-center h-full mt-[100px] overflow-hidden bg-center bg-cover bg-no-repeat pl-24">
             <img src={item.img} className={item.class} />
           </div>
           <motion.div className="text-container flex-1 flex pt-20 flex-col gap-6" style={{y}}>

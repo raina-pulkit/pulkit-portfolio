@@ -43,6 +43,13 @@ export default function Links() {
             variants={itemVariants}
             whileHover={{ scale: 1.1, transition: { duration: 0.01 }, opacity: 0.5 }}
             whileTap={{ scale: 0.95 }}
+            onClick={(e) => {
+              e.preventDefault(); // Prevent default link behavior
+              const target = document.querySelector(`#${item}`);
+              if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
           >
             {item}
           </motion.a>
