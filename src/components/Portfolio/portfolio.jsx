@@ -8,15 +8,16 @@ const Project = ({ item }) => {
     target: ref,
   });
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
+  const yOther = useTransform(scrollYProgress, [0, 1], [-100, 100]);
 
   return (
     <section>
       <div className="flex items-center justify-center w-full h-full overflow-hidden">
-        <div className="max-w-[1366px] h-3/4 m-auto flex items-center justify-center gap-12 pr-5">
-          <div className="relative flex-1 flex items-center justify-center h-full mt-[100px] overflow-hidden bg-center bg-cover bg-no-repeat">
+        <div ref={ref} className="max-w-[1366px] h-3/4 m-auto flex items-center justify-center gap-12 pr-5">
+          <div style={{yOther}} className="relative flex-1 flex items-center justify-center h-full mt-[100px] overflow-hidden bg-center bg-cover bg-no-repeat">
             <img src={item.img} className={item.class} />
           </div>
-          <motion.div className="text-container flex-1 flex pt-20 flex-col gap-6">
+          <motion.div className="text-container flex-1 flex pt-20 flex-col gap-6" style={{y}}>
             <h2 className="text-5xl">{item.title}</h2>
             <p className="text-gray-400 text-xl">{item.desc}</p>
             <div className="flex gap-4">
