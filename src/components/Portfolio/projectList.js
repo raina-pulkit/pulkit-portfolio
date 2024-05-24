@@ -35,8 +35,8 @@ export const projList = [
 		img: "netflix.png",
 		desc: "Proficiently replicated the Netflix India website, demonstrating adeptness in applying diverse functionalities and implementing precise positioning, design, color selection, and CSS styling to achieve the desired layout.\
 		Tools & technologies used: HTML & CSS.",
-		github: ["https://github.com/raina-pulkit/Netflix_Clone"],
-		deploy: "https://raina-pulkit.github.io/Netflix_Clone/",
+		github: ["https://github.com/pulkitraina/Netflix_Clone"],
+		deploy: null,
 		class: "absolute object-cover transform scale-75 left-0 top-0"
 	},
 	{
@@ -45,7 +45,7 @@ export const projList = [
 		img: "snake.png",
 		desc: "Built traditional arcade games like Snake game, Ping Pong and Turtle Crossing using the Turtle module in Python, demonstrating an excellent understanding of Object-Oriented programming principles.\
 		Tools & technologies used: Python & Turtle Module.",
-		github: ["https://github.com/raina-pulkit/PythonProjectsPulkit/blob/main/Day 20%2C 21 %26 24 - Snake Game.py", "https://github.com/raina-pulkit/PythonProjectsPulkit/blob/main/Day 22 - Ping Pong.py", "https://github.com/raina-pulkit/PythonProjectsPulkit/blob/main/Day 23 - Turtle Crossing Game.py"],
+		github: ["https://github.com/pulkitraina/PythonProjectsPulkit/blob/master/Day%2020%2C%2021%20%26%2024%20-%20Snake%20Game.py", "https://github.com/raina-pulkit/PythonProjectsPulkit/blob/main/Day 22 - Ping Pong.py", "https://github.com/raina-pulkit/PythonProjectsPulkit/blob/main/Day 23 - Turtle Crossing Game.py"],
 		deploy: null,
 		class: "absolute object-cover transform scale-75 left-0 top-0"
 
@@ -56,7 +56,7 @@ export const projList = [
 		img: "",
 		desc: "Created an automated playlist creator, that scrapes the top 100 songs off the 'Billboard Top 100 songs' list from a particular date, and adds those songs to a playlist. Used Python's Beautiful Soup and Spotipy modules.\
 		Tools & technologies used: Python (Beautiful Soup & Spotipy).",
-		github: ["https://github.com/raina-pulkit/Spotify-Billboard-Playlist"],
+		github: ["https://github.com/pulkitraina/Spotify-Billboard-Playlist"],
 		deploy: null
 	},
 	{
@@ -65,8 +65,8 @@ export const projList = [
 		img: "dice.png",
 		desc: "Dice rolling tool to exhibit understanding of basics of HTML, CSS, and JS.\
 		Tools & technologies used: HTML, CSS, JS",
-		github: ["https://github.com/raina-pulkit/Dice_Game"],
-		deploy: "https://raina-pulkit.github.io/Dice_Game/"
+		github: ["https://github.com/pulkitraina/Dice_Game"],
+		deploy: null
 	},
 	{
 		id: 8,
@@ -74,7 +74,7 @@ export const projList = [
 		img: "drum.png",
 		desc: "A drum-kit simulator built using JS, CSS and HTML which allows users to play a rhythm by either clicking on the provided buttons or pressing the keys for the respective crash, cymbal, snare, etc.\
 		Tools & technologies used: HTML, CSS, JS",
-		github: ["https://github.com/raina-pulkit/Drum_Kit"],
-		deploy: "https://raina-pulkit.github.io/Drum_Kit/"
+		github: ["https://github.com/pulkitraina/Drum_Kit"],
+		deploy: null
 	}
 ];
