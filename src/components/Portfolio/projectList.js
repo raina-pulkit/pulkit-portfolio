@@ -1,6 +1,5 @@
 export const projList = [
 	{
-		id: 1,
 		title: "'Namma Metro' ticket booking app",
 		img: "namma_metro.png",
 		desc: "Developed a full-stack mobile application called \"Namma Metro Ticket Booking App\" using Dart with the Flutter framework for the front-end and Firebase for the back end. The app enables users to seamlessly book metro tickets, providing a convenient and efficient commuting experience. Key features include User Authentication, Ticket Booking System, Payment Integration, Real-time Database, User Interface (UI) Design, Error Handling and Validation, Scalability, Testing and Debugging.\
@@ -10,7 +9,6 @@ export const projList = [
 		class: "absolute object-cover h-full transform scale-110"
 	},
 	{
-		id: 2,
 		title: "'Echo Auction' website",
 		img: "echo.png",
 		desc: "A full-stack Auction website made using HTML, CSS & JS for frontend, & PHP, & MySQL for Backend. Buyers can post their products while the seller can bid on them. Implemented features such as product browsing, search functionality, and interactive UI components. Implemented concurrent addition of products to the auctioning website.\
@@ -20,7 +18,6 @@ export const projList = [
 		class: "absolute object-cover w-full transform scale-75 left-0 transform -rotate-90"
 	},
 	{
-		id: 3,
 		title: "Shopping Cart Website using React",
 		img: "shopping-cart.png",
 		desc: "Developed a dynamic web application using React.js for online shopping of various products. Leveraged React's component-based architecture to create a user-friendly interface for browsing products and adding them to the cart. Employed state management techniques to ensure real-time updates of product availability and cart contents.\
@@ -30,7 +27,15 @@ export const projList = [
 		class: "absolute object-cover w-full transform scale-75 left-0 transform -rotate-90"
 	},
 	{
-		id: 4,
+		title: "Login Platorm",
+		img: "shopping-cart.png",
+		desc: "Developed a simple login dashboard interface which allows users to register & login (authentication) after which they are allowed access to various parts of the site\
+		Tools & technologies used: NextJS, API Integration, ShadCN, prisma, PostgreSQL",
+		github: ["https://github.com/raina-pulkit/login-manual"],
+		deploy: null,
+		class: "absolute object-cover w-full transform scale-75 left-0 transform -rotate-90"
+	},
+	{
 		title: "Netflix clone",
 		img: "netflix.png",
 		desc: "Proficiently replicated the Netflix India website, demonstrating adeptness in applying diverse functionalities and implementing precise positioning, design, color selection, and CSS styling to achieve the desired layout.\
@@ -40,7 +45,6 @@ export const projList = [
 		class: "absolute object-cover transform scale-75 left-0 top-0"
 	},
 	{
-		id: 5,
 		title: "Turtle Module Games",
 		img: "snake.png",
 		desc: "Built traditional arcade games like Snake game, Ping Pong and Turtle Crossing using the Turtle module in Python, demonstrating an excellent understanding of Object-Oriented programming principles.\
@@ -51,7 +55,6 @@ export const projList = [
 
 	},
 	{
-		id: 6,
 		title: "Spotify Playlist Creation Automater",
 		img: "",
 		desc: "Created an automated playlist creator, that scrapes the top 100 songs off the 'Billboard Top 100 songs' list from a particular date, and adds those songs to a playlist. Used Python's Beautiful Soup and Spotipy modules.\
@@ -60,7 +63,6 @@ export const projList = [
 		deploy: null
 	},
 	{
-		id: 7,
 		title: "Dice Roller Project",
 		img: "dice.png",
 		desc: "Dice rolling tool to exhibit understanding of basics of HTML, CSS, and JS.\
@@ -69,7 +71,6 @@ export const projList = [
 		deploy: null
 	},
 	{
-		id: 8,
 		title: "Drum Kit Simulator",
 		img: "drum.png",
 		desc: "A drum-kit simulator built using JS, CSS and HTML which allows users to play a rhythm by either clicking on the provided buttons or pressing the keys for the respective crash, cymbal, snare, etc.\

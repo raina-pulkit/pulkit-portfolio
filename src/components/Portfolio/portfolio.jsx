@@ -69,8 +69,8 @@ export default function Portfolio() {
         ></motion.div>
       </div>
 
-      {projList.map((item) => (
-        <Project key={item.id} item={item} />
+      {projList.map((item, ind) => (
+        <Project key={ind} item={item} />
       ))}
     </div>
   );
