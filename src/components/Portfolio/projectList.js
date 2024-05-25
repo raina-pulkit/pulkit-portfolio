@@ -27,11 +27,11 @@ export const projList = [
 		class: "absolute object-cover w-full transform scale-75 left-0 transform -rotate-90"
 	},
 	{
-		title: "Login Platorm",
-		img: "shopping-cart.png",
-		desc: "Developed a simple login dashboard interface which allows users to register & login (authentication) after which they are allowed access to various parts of the site\
-		Tools & technologies used: NextJS, API Integration, ShadCN, prisma, PostgreSQL",
-		github: ["https://github.com/raina-pulkit/login-manual"],
+		title: "Login Platform",
+		img: null,
+		desc: "Developed a simple login dashboard interface which allows users to register & login (authentication) using NextJS after which they are allowed access to various parts of the site\
+		Tools & technologies used: NextJS, Next-Auth, API Integration, ShadCN, prisma, PostgreSQL",
+		github: ["https://github.com/raina-pulkit/login-nextauth"],
 		deploy: null,
 		class: "absolute object-cover w-full transform scale-75 left-0 transform -rotate-90"
 	},
